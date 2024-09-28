@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import Button from 'vite-react-component-library-starter';
+import { Button } from 'vite-react-component-library-starter';
 import './App.css'
 
 function App() {
