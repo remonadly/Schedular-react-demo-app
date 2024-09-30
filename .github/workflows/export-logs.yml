@@ -2,7 +2,7 @@ name: Export CloudWatch Logs
 
 on:
   schedule:
-    - cron: '* * * * *'  # Runs at 2 AM on the 1st of every month
+    - cron: '*/3 * * * *'  # Runs at 2 AM on the 1st of every month
 
 jobs:
   export-logs:
